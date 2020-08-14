@@ -3,3 +3,6 @@ node_modules/
 
 # ignore visual studio workspace
 workspace.code-workspace
+
+# ignore MacOS files
+.DS_Store
