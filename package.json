@@ -2,14 +2,14 @@
   "name": "pfl-web-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./_tests/"
   },
   "keywords": [],
   "author": "Jaret Boyer",
   "license": "ISC",
   "dependencies": {
+    "jest": "^26.4.0",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
