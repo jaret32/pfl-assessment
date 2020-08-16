@@ -1,9 +1,9 @@
 
 const { By, until } = require('selenium-webdriver');
-const Test = require('./Test.js');
+const SeleniumTest = require('./SeleniumTest.js');
 
 
-class GreetingPageTest extends Test {
+class GreetingPageTest extends SeleniumTest {
 
   /**
    * overrides the preTest method in the Test class
