@@ -55,7 +55,7 @@ class ApiTest extends Test {
       let res = await this.session.get(`/store/${storeId}/product/${productId}`);
       return res.status;
     } catch (err) {
-      throw err;
+      return err.response.status;
     }
   }
 
