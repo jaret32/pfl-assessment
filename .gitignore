@@ -6,3 +6,6 @@ workspace.code-workspace
 
 # ignore MacOS files
 .DS_Store
+
+# browser driver files
+chromedriver
