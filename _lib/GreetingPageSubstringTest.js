@@ -26,7 +26,7 @@ class GreetingPageSubstringTest extends GreetingPageTest {
     await input.sendKeys(this.substring);
     let button = this.driver.wait(until.elementIsVisible(buttonSelector));
     await button.click();
-    let text = this.driver.wait(until.elementIsVisible(textSelector));
+    let text = this.driver.wait(until.elementTextMatches(textSelector, /(True:|False:).*/));
     return await text.getText();
   }
 
