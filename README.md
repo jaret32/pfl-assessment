@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-To run the application, you must have Node.js installed along with a package manager like npm (installed with Node.js) or [yarn](https://yarnpkg.com/getting-started/install). You will also need to have [ChromeDriver](https://chromedriver.chromium.org/downloads) downloaded and placed on your system PATH.
+To run the application, you must have [Node.js](https://nodejs.org/en/) installed along with a package manager like npm (installed with Node.js) or [yarn](https://yarnpkg.com/getting-started/install). You will also need to have [ChromeDriver](https://chromedriver.chromium.org/downloads) downloaded and placed on your system PATH.
 
 ## Installing
 
