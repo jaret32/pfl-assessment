@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest ./_tests/"
+    "test": "mocha _tests/ --timeout 30000"
   },
   "keywords": [],
   "author": "Jaret Boyer",
   "license": "ISC",
   "dependencies": {
-    "jest": "^26.4.0",
+    "axios": "^0.19.2",
+    "mocha": "^8.1.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
