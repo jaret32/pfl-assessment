@@ -26,7 +26,7 @@ npm run test
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - JavaScript runtime
-* [axios]((https://github.com/axios/axios)) - HTTP client
+* [axios](https://github.com/axios/axios) - HTTP client
 * [Mocha](https://mochajs.org/) - JavaScript test framework
 
 ## Authors
